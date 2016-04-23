@@ -21,7 +21,7 @@ import 'lib/ionic/js/ionic-angular.js';
 
 import screens from './screens/index.js';
 // import components from './components/index.js'
-// import services from './services/index.js';
+import services from './services/index.js';
 
 // style
 import styles from 'index.scss';

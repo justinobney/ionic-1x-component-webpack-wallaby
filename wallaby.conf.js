@@ -19,6 +19,8 @@ module.exports = function (wallaby) {
         files: [
             {pattern: 'node_modules/babel-polyfill/browser.js', instrument: false},
             {pattern: 'src/**/*.html', load: false},
+            {pattern: 'www/lib/ionic/js/ionic.js', load: false},
+            {pattern: 'www/lib/ionic/js/ionic-angular.js', load: false},
             {pattern: 'src/**/*.scss', load: false},
             {pattern: 'src/**/*.css', load: false},
             {pattern: 'before-each-test.js', load: false},

@@ -1,7 +1,7 @@
-// import workflow from './workflow.js'
+import util from './util.js'
 
 const deps = [
-  // workflow
+  util
 ];
 
 export default angular
